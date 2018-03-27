@@ -1,4 +1,5 @@
 <?php
+require dirname(__DIR__) ."/vendor/autoload.php";
 // load in a bootstrap file
 require_once __DIR__ . '/modules/bootstrap.php';
 

@@ -1,0 +1,11 @@
+parameters:
+  autoload_directories:
+        - %rootDir%/../src
+        - %rootDir%/../tests
+  autoload_files:
+    - %rootDir%/../tests/Validate/EmailTest.php
+    - %rootDir%/../tests/Type/Utility/LookUpHostIpTest.php
+  ignoreErrors:
+    # Magic calls
+    - '/Method Mockery\\MockInterface::shouldReceive\(\) invoked with 1 parameter, 0 required/'
+    - '/Method Mockery\\MockInterface::shouldNotReceive\(\) invoked with 1 parameter, 0 required/'

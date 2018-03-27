@@ -1,0 +1,49 @@
+{
+  "name": "paulbunyannet/bandolier",
+  "description": "Reusable utilities",
+  "keywords": [
+    "toolkit",
+    "utility"
+  ],
+  "authors": [
+    {
+      "name": "Nate Nolting",
+      "email": "me@natenolting.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^4.8",
+    "mockery/mockery": "^0.9.9",
+    "fzaninotto/faker": "^1.6",
+    "symfony/var-dumper": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pbc\\Bandolier\\": "src/Bandolier/"
+    },
+    "files": [
+      "src/Bandolier/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/BandolierTestCase.php",
+      "tests/Mock/GuzzleHttpClientMock.php"
+    ]
+  },
+  "minimum-stability": "stable",
+  "scripts": {
+    "get-coverage-checker": [
+      "wget -q https://raw.githubusercontent.com/Ocramius/VersionEyeModule/5fcfcc3c2cba7dec9343307c9e75da26d3a51d03/coverage-checker.php -O coverage-checker.php"
+    ],
+    "test": [
+      "phpunit --verbose"
+    ]
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/paulbunyannet/bandolier",
+  "prefer-stable": true,
+  "suggest": {
+    "guzzlehttp/guzzle": "Needed for using Paths::fileGetContents() to retrieve remote content."
+  }
+}

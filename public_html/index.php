@@ -20,11 +20,6 @@ require_once __DIR__ . '/modules/bootstrap.php';
 <body>
   <div class="sidenav">
 <?php echo $navigation; ?>
-	<!--
-	No need for these any more.
-	<a href="index.php">Home</a>
-    <a href="aboutus.php">About us</a>
-    <a href="contact.php">Contact Us</a> -->
   </div>
   <?php
     include_once __DIR__ . '/' . $page . '.php';

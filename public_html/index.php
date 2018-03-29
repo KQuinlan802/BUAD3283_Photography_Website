@@ -1,5 +1,4 @@
 <?php
-require dirname(__DIR__) ."/vendor/autoload.php";
 // load in a bootstrap file
 require_once __DIR__ . '/modules/bootstrap.php';
 
@@ -12,19 +11,23 @@ require_once __DIR__ . '/modules/bootstrap.php';
     }
 
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title><?php echo  $navTitles[array_search($page, $navItems)]; ?></title>
-  <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="sidenav">
-  <?php echo $navigation; ?>
-</div>
-<?php
-  include_once __DIR__ . '/' . $page . '.php';
-?>
+<title><?php echo  $navTitles[array_search($page, $navItems)]; ?></title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sidenav">
+<?php echo $navigation; ?>
+	<!--
+	No need for these any more.
+	<a href="index.php">Home</a>
+    <a href="aboutus.php">About us</a>
+    <a href="contact.php">Contact Us</a> -->
+  </div>
+  <?php
+    include_once __DIR__ . '/' . $page . '.php';
+  ?>
 </body>
 </html>

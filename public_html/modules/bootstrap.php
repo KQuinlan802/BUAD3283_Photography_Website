@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+    ini_set('display_startup_errors', 1);
+    error_reporting(E_ALL);
 // to any functionality needed for the site here...
 require __DIR__ ."/vendor/autoload.php";
 // Let's make a request variable and add any requests passed to the index to it:

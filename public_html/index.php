@@ -15,10 +15,13 @@ require_once __DIR__ . '/modules/bootstrap.php';
 <head>
 <title><?php echo  $navTitles[array_search($page, $navItems)]; ?></title>
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+  <img src="photoLogo.phg" alt= "Logo" />
+
   <div class="sidenav">
-<?php echo $navigation; ?>
+<?php  echo $navigation; ?>
   </div>
   <?php
     include_once __DIR__ . '/' . $page . '.php';

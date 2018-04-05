@@ -9,7 +9,6 @@ require_once __DIR__ . '/modules/bootstrap.php';
     } else {
         $page = 'home';
     }
-
 ?>
 <!DOCTYPE html>
 <html>

@@ -1,2 +1,2 @@
 <?php
-echo"Contact Us";
+echo"Book an Appointment";

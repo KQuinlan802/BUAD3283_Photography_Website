@@ -1,8 +1,8 @@
 <?php
 /** @var array $navItems The list of navigation items to use as links */
-$navItems = ['home','aboutus','contactUS'];
+$navItems = ['home','aboutus','contactUs'];
 /** @var array $navTitles The list of navigation item titles */
-$navTitles = ['Home', 'About Us', 'Contact Us'];
+$navTitles = ['Home', 'About Us', 'Book an Appointment'];
 /** @var array $navListOutput returned formatted navigation items */
 $navListOutput = array_map(function($i) use ($navItems, $navTitles){
     return '    <a href="index.php?p='. $navItems[$i] .'">'. $navTitles[$i] .'</a>' . PHP_EOL;

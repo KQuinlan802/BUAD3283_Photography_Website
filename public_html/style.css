@@ -57,3 +57,12 @@ body {
     padding: 15px;
     text-align: center;
 }
+.form-group .input-submit {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    width: auto;
+    color: #000;
+}

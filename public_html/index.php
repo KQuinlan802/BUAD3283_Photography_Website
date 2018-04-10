@@ -18,7 +18,7 @@ require_once __DIR__ . '/modules/bootstrap.php';
 
 </head>
 <body>
-  <img src="photoLogo.phg" alt= "Logo" />
+  <img src="photoLogo.png" alt= "Logo" />
 
   <div class="sidenav">
 <?php  echo $navigation; ?>

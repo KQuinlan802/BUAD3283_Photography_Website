@@ -12,16 +12,25 @@ echo "Home";
 <div id="header">
 <h1> Precious Moments Photography</h1>
 </div>
-<div class="article column1">
-  <p> Weddings </p>
-  <img src="wedding.jpg" alt= "Weddings" width="250" height="350"/>
+<div class="gallery">
+  <a target="_blank" href="wedding.jpg">
+    <img src="wedding.jpg" alt="Weddings" width="300" height="200">
+  </a>
+  <div class="desc">Weddings</div>
 </div>
-<div class="article column2">
-  <p> Portraits </p>
-  <img src="portraits.jpeg" alt= "Portraits" width="350" height="250"/>
+
+<div class="gallery">
+  <a target="_blank" href="portraits.jpeg">
+    <img src="portraits.jpeg" alt="Portraits" width="200" height="300">
+  </a>
+  <div class="desc">Portraits</div>
 </div>
-<div class="article column3">
-  <p> Landscapes </p>
+
+<div class="gallery">
+  <a target="_blank" href="mountain.jpeg">
+    <img src="mountain.jpeg" alt="Mountains" width="300" height="200">
+  </a>
+  <div class="desc">Landscapes</div>
 </div>
 </div>
 </body>

@@ -4,7 +4,7 @@ body {
   padding: 20px;
   font-size: 15px;
   line-height: 20px;
-  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", "Calibri", "Helvetica", "Arial", "sans-serif";
+  font-family: "Helvetica Neue Light", "Helvetica Neue-Light", "Helvetica Neue", "Calibri", "Helvetica", "Arial", "sans-serif";
 }
 .navigation {
     background: rgba(0, 0, 0, 0.75);
@@ -35,7 +35,8 @@ body {
     background-color: #efefef;
     width: 300px;
     float: left;
-    margin: 10px:
+    margin: 10px;
+    align: center;
   }
   .gallery {
     margin: 5px;

@@ -6,7 +6,7 @@ body {
   line-height: 20px;
   font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 
-  .navigation {
+.navigation {
     background: rgba(0, 0, 0, 0.75);
     padding: 0;
     margin-top: -2rem;
@@ -30,4 +30,10 @@ body {
 
   .navigation-item:hover {
     background-color: rgba(255, 255, 255, 0.5);
+  }
+  .column1, .column2, .column3{
+    background-color: #efefef;
+    width: 300px;
+    float: left;
+    margin: 10px:  
   }

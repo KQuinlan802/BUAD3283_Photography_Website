@@ -19,10 +19,15 @@ echo "Home";
   </a>
   <div class="desc">Weddings</div>
 </div>
-
+<div class="gallery">
+  <a target="_blank" href="engagement.jpeg">
+    <img src="engagement.jpeg" alt="Engagement" width="300" height="200">
+  </a>
+  <div class="desc">Engagements</div>
+</div>
 <div class="gallery">
   <a target="_blank" href="portraits.jpeg">
-    <img src="portraits.jpeg" alt="Portraits" width="200" height="300">
+    <img src="portraits.jpeg" alt="Portraits" width="300" height="200">
   </a>
   <div class="desc">Portraits</div>
 </div>

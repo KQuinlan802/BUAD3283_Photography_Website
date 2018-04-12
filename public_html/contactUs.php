@@ -7,7 +7,7 @@ echo"Book an Appointment";
   <title>Book an Appointment </title>
 </head>
 <body>
-  <h1> Book your appointment now! </h1>
+  <h1 style="text-align:center;"> Book your appointment now! </h1>
    <form action="endpoint.php" method="get" class="form">
   <fieldset>
 <legend> Schedule today! </legend>

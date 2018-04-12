@@ -10,8 +10,8 @@ echo "Home";
 </head>
 <body>
 <div id="header" >
-<h1> Precious Moments Photography</h1>
-<h3> Welcome to my website! At Precious Moments we love to capture the moments in your life that make it special </h3>
+<h1 style="text-align:center;"> Precious Moments Photography</h1>
+<h3 style="text-align:center;"> Welcome to my website! At Precious Moments we love to capture the moments in your life that make it special </h3>
 </div>
 <div class="gallery">
   <a target="_blank" href="wedding.jpg">
@@ -26,12 +26,17 @@ echo "Home";
   <div class="desc">Engagements</div>
 </div>
 <div class="gallery">
-  <a target="_blank" href="portraits.jpeg">
-    <img src="portraits.jpeg" alt="Portraits" width="300" height="200">
+  <a target="_blank" href="portrait2.jpeg">
+    <img src="portrait2.jpeg" alt="Portraits" width="300" height="200">
   </a>
   <div class="desc">Portraits</div>
 </div>
-
+<div class="gallery">
+  <a target="_blank" href="professional.jpeg">
+    <img src="professional.jpeg" alt="Professional" width="300" height="200">
+  </a>
+  <div class="desc">Professional</div>
+</div>
 <div class="gallery">
   <a target="_blank" href="mountain.jpeg">
     <img src="mountain.jpeg" alt="Mountains" width="300" height="200">
@@ -40,9 +45,15 @@ echo "Home";
 </div>
 <div class="gallery">
   <a target="_blank" href="baby.jpeg">
-    <img src="baby.jpeg" alt="Newborn" width="200" height="300">
+    <img src="baby.jpeg" alt="Newborn" width="300" height="200">
   </a>
   <div class="desc">Newborns</div>
+</div>
+<div class="gallery">
+  <a target="_blank" href="sessions.jpeg">
+    <img src="sessions.jpeg" alt="Sessions" width="300" height="200">
+  </a>
+  <div class="desc">Sessions</div>
 </div>
 </div>
 </body>

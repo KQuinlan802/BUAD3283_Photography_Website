@@ -7,9 +7,10 @@ echo"About Us";
 <title><?php echo  $navTitles[array_search($page, $navItems)]; ?></title>
 <link rel="stylesheet" href="style.css">
 <h1> About Me </h1>
-<img src="aboutme.jpeg" alt= "Logo" class="center"/>
 </head>
 <body>
-
-  Just a girl with a camera
+  <p style="text-align:center;">
+    Just a girl with a camera
+  </p>
+  <img src="aboutme.jpeg" alt= "Logo" height="400" width="300"class="center"/>
 </body>

@@ -17,7 +17,8 @@ echo"Book an Appointment";
   <input type="email" name="email" value="" id="email" placeholder="Type Your Email Address"></div>
 <div class="form-group"><label for="phone">Phone</label>
     <input type="phone" name="phone" value="" id="phone" placeholder="Type Your Phone Number"></div>
-   
+<div class="form-group" ><label for="date">Date</label>
+     <input type="datetime-datetime-local" name="Date" value="" id="datetime" placeholder="Date of Appointment"></div>
 <div class="form-group"><label for="comment" class="label-textarea">Notes</label>
   <textarea id="comment" name="comment" rows="6" cols="30"></textarea></div>
  <div class="form-group"><label for="submit" class="hidden"></label>

@@ -1,5 +1,6 @@
 body {
   background: #eee;
+  background-image: url("background.jpg");
   color: #000;
   padding: 20px;
   font-size: 15px;
@@ -36,12 +37,12 @@ body {
     width: 300px;
     float: left;
     margin: 10px;
-    align: center;
+
   }
   .gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+    float: center;
     width: 180px;
 }
 

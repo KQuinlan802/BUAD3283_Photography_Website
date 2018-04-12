@@ -82,13 +82,16 @@ echo"Book an Appointment";
 <div class="container col-sm-6">
 	<form action="endpoint.php">
     <div class="form-group">
-			  <label>Select your prints</label>
-			  <input id="Selectprints" class="form-control" type="text" ></input>
-        <select>
+			  <label>Select your print size</label>
+    <select>
   <option value="5x7">5x7</option>
   <option value="4x8">4x8</option>
   <option value="8x11">8x11</option>
 </select>
+		</div>
+    <div class="form-group">
+			  <label>How many prints?</label>
+			  <input id="amountOfPrints" class="form-control" type="text" ></input>
 		</div>
 		<div class="form-group">
 			  <label>Payment amount</label>

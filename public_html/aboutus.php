@@ -12,5 +12,5 @@ echo"About Us";
   <p style="text-align:center;">
     Just a girl with a camera
   </p>
-  <img src="aboutme.jpeg" alt= "Logo" height="400" width="300"class="center"/>
+  <img src="aboutme.jpeg" alt= "Logo" height="400" width="300"/>
 </body>

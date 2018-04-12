@@ -38,7 +38,7 @@ body {
   .column1, .column2, .column3 {
     background-color: #efefef;
     width: 300px;
-    float: left;
+    float: center;
     margin: 10px;
 
   }

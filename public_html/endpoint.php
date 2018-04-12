@@ -7,7 +7,7 @@
     <body>
         <div class="form-result">
         <?php
-        echo "<p class='message'>Hey {$_GET['name']}, thank you for your comment from the {$_GET['method']} contact form.</p>";
+        echo "<p class='message'>Hey {$_GET['name']}, thank you for scheduling your appointment from the {$_GET['method']} book an appointment form.</p>";
         ?>
             <table>
               <thead>

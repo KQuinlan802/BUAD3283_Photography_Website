@@ -9,7 +9,7 @@ echo "Home";
 
 </head>
 <body>
-<div id="header">
+<div id="header" >
 <h1> Precious Moments Photography</h1>
 <h3> Welcome to my website! At Precious Moments we love to capture the moments in your life that make it special </h3>
 </div>

@@ -10,5 +10,6 @@ echo"About Us";
 <img src="aboutme.jpeg" alt= "Logo" class="center"/>
 </head>
 <body>
+
   Just a girl with a camera
 </body>

@@ -49,17 +49,17 @@ body {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 100px;
 }
 
 .gallery:hover {
     border: 1px solid #777;
 }
-
 .gallery {
-    width: auto;
-    height: auto;
+  height: auto;
+  width: auto;
 }
+
 
 .desc {
     padding: 15px;

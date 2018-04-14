@@ -93,6 +93,10 @@ echo"Book an Appointment";
 			  <label>How many prints?</label>
 			  <input id="amountOfPrints" class="form-control" type="text" ></input>
 		</div>
+    <div class="form-group">
+			  <label>Total</label>
+			  <input id="TotalforPrints" class="form-control" type="text" ></input>
+		</div>
 		<div class="form-group">
 			  <label>Payment amount</label>
 			  <input id="PaymentAmount" class="form-control" type="text" ></input>

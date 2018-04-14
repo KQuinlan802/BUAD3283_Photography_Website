@@ -55,5 +55,11 @@ echo "Home";
   </a>
   <div class="desc">Sessions</div>
 </div>
+<div class="gallery">
+  <a target="_blank" href="graduaion.jpeg">
+    <img src="graduaion.jpeg" alt="Graduations" width="300" height="200">
+  </a>
+  <div class="desc">Graduations</div>
+</div>
 </div>
 </body>

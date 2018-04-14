@@ -45,7 +45,7 @@ body {
   .gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: center;
+    float: left;
     width: 180px;
 }
 
@@ -53,8 +53,8 @@ body {
     border: 1px solid #777;
 }
 
-.gallery img {
-    width: 100%;
+.gallery  {
+    width: auto;
     height: auto;
 }
 

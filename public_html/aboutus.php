@@ -1,7 +1,6 @@
 <?php
 echo"About Us";
 ?>
-<!DOCTYPE html>
 <html lang=en>
 <head>
 <title><?php echo  $navTitles[array_search($page, $navItems)]; ?></title>

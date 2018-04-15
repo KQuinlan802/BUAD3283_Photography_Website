@@ -1,3 +1,28 @@
+<?php
+// load in a bootstrap file
+require_once __DIR__ . '/modules/bootstrap.php';
+    // now that we have the $request variable created in modules/bootstrap.php
+    // we can look for that item in the nav and get the correct page from it
+    // default to home
+$page = 'home';
+// this is pretty much the same as above, just put on seperate lines so it's easier to read...
+if (array_key_exists('p', $request)
+        && in_array($request['p'], $navItems)
+        && file_exists(__DIR__ . '/'. $request['p'].'.php')
+    ) {
+        $page = $request['p'];
+    }
+    $endpointSuffix = 'ordering_endpoint';
+    // If the request is to an endpoint (p=something_endpoint for instance) we we should check and see if it exists and if it does then require it.
+    if (array_key_exists('p', $request)
+        && file_exists(__DIR__ . '/'. $request['p'].'.php')
+        && substr($request['p'], (strlen($request['p'])-strlen($endpointSuffix)), strlen($request['p'])) === $endpointSuffix
+    ) {
+        require __DIR__ . '/'. $request['p'].'.php';
+       // Optionally you could exit here also since the endpoints should only process and then return success or failure and redirecting
+       // exit();
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -134,7 +134,7 @@ echo"Book an Appointment";
 			  <label>ZIP Code</label>
 			  <input id="ZIPCode" class="form-control" type="text" ></input>
 		</div>
-			  <button id="PayButton" class="btn btn-block btn-success submit-button" type="submit">Submit Order</button>
+			  <input id="PayButton" class="btn btn-block btn-success submit-button" type="submit"></input>
 	</form>
   </fieldset>
 </div>

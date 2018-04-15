@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact Form Endpoint</title>
+    <title>Appointment Endpoint</title>
     <link rel="stylesheet" href="style.css">
 </head>
     <body>

@@ -7,7 +7,7 @@ echo"Book an Appointment";
 </head>
 <body>
   <h1 style="text-align:center;"> Book your appointment now! </h1>
-   <form action="endpoint.php" method="get" class="form">
+   <form action="appointment_endpoint.php" method="get" class="form">
   <fieldset>
 <legend> Schedule today! </legend>
 <div class="form-group"><label for="name">Name</label>
@@ -70,16 +70,30 @@ echo"Book an Appointment";
           </span>
         </div>
       </div>
+      <div class="form-group">
+          <label>Select type of photo session</label>
+      <select>
+      <option value="Wedding">Wedding</option>
+      <option value="Engagement">Engagement</option>
+      <option value="Portraits">Portraits</option>
+      <option value="Professional">Professional</option>
+      <option value="Graduation">Graduation</option>
+      <option value="Newborn">Maternity/Newborn</option>
+      <option value="Other">Other</option>
+      </select>
 <div class="form-group"><label for="comment" class="label-textarea">Notes</label>
   <textarea id="comment" name="comment" rows="6" cols="30"></textarea></div>
  <div class="form-group"><label for="submit" class="hidden"></label>
    <input type="Submit" name="Submit" value="Submit" id="Submit" class="input-submit"></div>
 </fieldset>
+
+
+
 <fieldset>
   <legend> Order your prints! </legend>
 </form>
 <div class="container col-sm-6">
-	<form action="endpoint.php">
+	<form action="ordering_endpoint.php" method="get" class="form">
     <div class="form-group">
 			  <label>Select your print size</label>
     <select>

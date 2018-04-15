@@ -32,7 +32,8 @@ if (array_key_exists('p', $request)
     <body>
         <div class="form-result">
         <?php
-        echo "<p class='message'>Hey {$_GET['name']}, thank you for ordering your prints from the {$_GET['method']} ordering prints form.</p>";
+        echo "<p class='message'>Hey, thank you for ordering your prints from the {$_GET['method']} ordering prints form.</p>";
+  //      echo "<p class='message'>Hey {$_GET['name']}, thank you for ordering your prints from the {$_GET['method']} ordering prints form.</p>";
         ?>
             <table>
               <thead>

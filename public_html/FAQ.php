@@ -1,5 +1,5 @@
 <?php
-echo"FAQ";
+echo"faq";
 ?>
 <html>
 <head>
